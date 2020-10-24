@@ -13,5 +13,9 @@
 #include <QClipboard>
 #include <QLocale>
 #include <QTranslator>
+#include <QUrl>
+#include <QDesktopServices>
+#include <QCloseEvent>
+#include <QKeyEvent>
 
 #endif // GLOBAL_H

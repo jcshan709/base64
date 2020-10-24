@@ -25,6 +25,12 @@ private slots:
 
     void on_pushButton_4_clicked();
 
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_7_clicked();
+
+    void on_pushButton_6_clicked();
+
 private:
     Ui::b64img *ui;
 
@@ -32,5 +38,8 @@ private:
     QString BrowseImageFile();
     void copy(QString s);
     QString paste();
+
+protected:
+    void closeEvent(QCloseEvent *event) override;
 };
 #endif // B64IMG_H
